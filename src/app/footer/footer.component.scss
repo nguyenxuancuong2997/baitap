@@ -1,0 +1,101 @@
+@import "variables";
+section{
+    width: 1349px;
+    height: 640px;
+    background: black;
+    @include tablet-and-mobile{
+        width: 777px;
+        height: auto;
+        
+    }
+    @include mobile {
+         width: 375px;;
+        height: auto;
+  
+  }
+
+  .padTop-100{
+    padding-top: 100px;
+        .padd{
+            padding: 0px;
+            margin-right: 38px;
+            @include mobile{
+                margin-right:0px;
+                text-align: center;
+            }
+        }
+
+    .title{
+            font-size: 2rem;
+            color: white;
+            @include tablet-and-mobile{
+                 font-size: 1.5rem;
+                 text-align: center;
+            }
+      }
+      .noidung{
+            color: white;
+            padding-top: 10px;
+            @include tablet-and-mobile{
+                    text-align: center;
+                    padding-top: 10px;
+            }
+      }
+
+      .info{
+            padding-top: 40px;
+            @include tablet-and-mobile{
+                 text-align: center;
+            }
+
+            .marRight-0{
+                 @include mobile{
+                      margin-right: 0px;
+                 }
+            }
+            .padTop-30{
+                padding-top: 30px;
+            }
+            .phone{
+                  color: white;
+                  @include mobile{
+                    margin-bottom: 14px;
+                  }
+                  .icon{
+                         font-size: 24px;
+                         margin-right: 18px;
+                         @include tablet-and-mobile{
+                               margin-right: 8px;
+                         }
+                  }
+            }
+      }
+        form{
+            @include tablet-and-mobile{
+                 margin-top: 20px;
+            }
+            .input{
+                padding: 12px;
+            }
+            .submit{
+                border-radius: 25px;
+                width: 30%;
+                background-color: #17a2b8;
+                @include mobile{
+                     width: 40%;
+                }
+                
+            }
+        }
+  }
+  hr{
+    border-top: 1px solid #ced4da;
+    width: 85%;
+    margin-top: 64px;
+
+  }
+  .footer{
+         color: white;
+         padding-top: 30px;
+  }
+}

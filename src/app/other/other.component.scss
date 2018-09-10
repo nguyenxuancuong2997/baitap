@@ -1,0 +1,84 @@
+@import "variables";
+section{
+    height: 616px;
+    width: 1324px;
+    background-color: rgba(0,0,0,.075);
+    @include tablet-and-mobile{
+        width: 776px;
+        height: auto;
+        
+    }
+    @include mobile {
+        width: 375px;
+  
+  }
+    .padd0{
+          padding: 0px;
+          .marTop{
+              padding-top: 96px;
+              padding-left: 150px;
+              .title-top{
+                   @include tablet-and-mobile{
+                        text-align: center;
+                   }
+                   @include mobile{
+                        font-size: 2em;
+                   }
+              }
+              .noidung-top{
+                   @include tablet-and-mobile{
+                        text-align: center;
+                   }
+              }
+              @include tablet-and-mobile{
+                padding-top: 48px;
+                padding-left: 42px;
+              }
+              .noidung{
+                  margin-top: 12px;
+              }
+          }
+          .marTop36{
+                margin-top: 36px;
+                @include mobile{
+                     text-align: center;
+                }
+                .moblie{
+                    @include mobile{
+                         margin-top: 20px;
+                    }
+                    .logo{
+                         padding-bottom: 10px;
+                    }
+                }
+                .marTop-9{
+                    margin-top: -5px;
+                    padding: 0px;
+                }
+          }
+          .link{
+            margin-top: 50px;
+            border: 1px solid #007bff;
+            width: 176px;
+            padding: 20px;
+            border-radius: 36px;
+            @include tablet-and-mobile{
+                 margin: 50px auto;
+            }
+            a{
+                color: black;
+            }
+          }
+          .image-right{
+            padding-left: 30px;
+            @include tablet-and-mobile{
+                width: 100%;
+                height: 27em;
+                object-fit: cover;
+                padding-left: 0px;
+            }
+        }
+          
+    }
+ 
+}

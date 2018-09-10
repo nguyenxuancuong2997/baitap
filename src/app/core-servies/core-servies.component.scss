@@ -1,0 +1,33 @@
+@import "variables";
+section{
+    width: 1349px;
+    height: 526px;
+    @include tablet-and-mobile{
+        width: 768px;
+        height: auto;
+}
+@include mobile {
+      width: 375px;
+
+}
+    .container{
+        .marTop-82{
+            margin-top: 82px;
+        }
+        hr{
+            width: 10%;
+            border-top: 1px solid #17a2b8;
+        }
+        .marTop-80{
+            margin-top: 80px;
+            @include tablet-and-mobile{
+                margin-top: 30px;
+                margin-bottom: 18px;
+            
+            }
+            .marTop42{
+                margin-top: 42px;
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+@import "variables";
+section{
+    width: 1324px;
+    height: 700px;
+    @include tablet-and-mobile{
+        width: 738px;
+        
+    }
+    @include mobile {
+        width: 345px;
+        height: auto;
+  }
+  .padding-0{
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+  .marTop132{
+    padding-top: 100px;
+    padding-left: 147px;
+    @include tablet-and-mobile{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .padding-0{
+           padding-left: 0px;
+           padding-right: 0px;
+           
+    }
+    .title{
+        font-weight:  bold;
+         font-size: 2em;
+         @include mobile{
+            margin-left: 29px;
+
+         }
+      
+    }
+    .noidung{
+     padding-top: 48px;
+     @include tablet-and-mobile{
+        padding-left: 25px;
+     }
+     @include mobile{
+        padding-left: 28px;
+     }
+    }
+    .title-other{
+        font-weight:  bold;
+        font-size: 1.5em;
+        margin-top: -10px;
+        @include tablet-and-mobile{
+         padding-top: 10px;
+         padding-bottom: 10px;
+        }
+        @include mobile{
+              padding-top: 10px;
+              padding-bottom: 10px;
+              font-size: 1em;
+        }
+    }
+    .content-other{
+          @include tablet-and-mobile{
+              padding-left:28px;
+            //   padding-right: 10px; 
+          }
+    }
+
+    .marTop-40{
+        margin-top: 40px;
+        .padBotton-17{
+             padding-bottom: 17px;
+        }
+    }
+}
+
+ 
+    .marTop-98{
+        margin-top: 98px;
+        img{
+            width: 559px;
+            height: 510px;
+            @include tablet-and-mobile{
+                width: 766px;
+                margin-bottom: 26px;
+
+            }
+            @include mobile{
+                width: 372px;
+                margin-bottom: 26px;
+
+            }
+        }
+    }
+   
+}

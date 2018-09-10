@@ -1,0 +1,75 @@
+@import "variables";
+section{
+    width: 1324px;
+    height: 1635px;
+    @include tablet-and-mobile{
+        width: 768px;
+        height: auto;        
+    }
+    @include mobile {
+        width: 375px;
+         
+  }
+  .title{
+      font-weight: bold;
+      padding-top: 100px;
+      font-size: 2em;
+  }
+  hr{
+    width: 10%;
+    border-top: 1px solid #17a2b8;
+  }
+  .marTop86{
+       margin-top: 86px;
+       .time{
+             font-size: 1em;
+             font-weight: bold;
+       }
+         .title-abum{
+        font-size: 1em;
+        font-weight: bold;
+    }
+      .content{
+            padding-top: 10px;
+      }
+      .fix-mobile{
+        @include mobile{
+              text-align: center;
+              margin-top: 16px;
+              margin-bottom: 10px;
+        }
+
+    }
+
+  }
+
+  .marTop100{
+        margin-top: 100px;
+        .marLeft-12{
+              margin-left: 12px;
+              @include tablet-and-mobile{
+                margin-left: 86px
+              }
+        }
+
+        .fix-mobile{
+               @include mobile{
+                     text-align: center;
+                     margin-top: 16px;
+                     margin-bottom: 10px;
+               }
+        }
+       
+        .time{
+            font-size: 1em;
+            font-weight: bold;
+      }
+        .title-abum{
+       font-size: 1em;
+       font-weight: bold;
+   }
+     .content{
+           padding-top: 10px;
+     }
+  }
+}

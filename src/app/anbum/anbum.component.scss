@@ -1,0 +1,27 @@
+@import "variables";
+section{
+    width: 1324px;
+    height: 700px;
+    @include tablet-and-mobile{
+        width: 738px;
+        height: auto;
+        
+    }
+    @include mobile {
+        width: 345px;
+        height: auto;
+  
+  }
+  .img{
+       width:  446px;
+       height: 352px;
+       @include tablet-and-mobile{
+            width: 265px;
+            height: 352px;
+       }
+       @include mobile{
+              width: 23em;
+             margin-bottom: 10px;
+       }
+  }
+}
